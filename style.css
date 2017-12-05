@@ -5,7 +5,16 @@ html, body {
     height: 100%;
 }
 
-body {
-    background: url(https://pbs.twimg.com/media/DQAQoChXUAAeWBV.jpg:large) no-repeat;
+@keyframes fade {
+    from {background-color: rgba(200, 200, 255, 1.0;}
+    to {background-color: rgba(200, 200, 255, 0.4;}
+}
+
+html {
+    background: url(https://pbs.twimg.com/media/DQAQoChXUAAeWBV.jpg:large) no-repeat center;
     background-size: cover;
+}
+body {
+    background: rgba(200, 200, 255, 0.4);
+    animation: fade 10s;
 }

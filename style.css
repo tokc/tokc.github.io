@@ -6,8 +6,8 @@ html, body {
 }
 
 @keyframes fade {
-    from {background-color: rgba(200, 200, 255, 1.0;}
-    to {background-color: rgba(200, 200, 255, 0.4;}
+    from {background-color: rgba(200, 200, 255, 1.0;)}
+    to {background-color: rgba(200, 200, 255, 0.4;)}
 }
 
 html {
